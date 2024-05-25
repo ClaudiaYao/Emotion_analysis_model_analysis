@@ -6,6 +6,8 @@ The original data files are train.csv and test.csv. The program will clean up th
 
 2. Data cleaning plays an important role in the accuracy of the model performance. The cleaning work is done in the file `common_code.py` - `clean_text` function.
 
+3. `USE.ipynb` is an independent file. It uses the universal sentence encoder to encode each doc and try difference models.
+
 ### How to run this project
 1. Install streamlit: pip install streamlit
 2. Install other Python packages necessary.
